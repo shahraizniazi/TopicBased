@@ -1,22 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
+
 
 
 namespace PublisherSubscribeModel
 {
     class Program
     {
+
+      
+
         static void Main(string[] args)
         {
-
-           PublisherSysLogs logs = new PublisherSysLogs();
+            PublisherSysLogs logs = new PublisherSysLogs();
             PublisherAppLogs logs1 = new PublisherAppLogs();
-            logs1.AppLogs();
-            logs.SysLogs();
+            Thread t1 = new Thread(logs.SysLogs);
+            Thread t2 = new Thread(logs1.AppLogs);
+
+            t1.Start();
+            t2.Start();
+
+            
+
 
         }
     }
 }
+
+

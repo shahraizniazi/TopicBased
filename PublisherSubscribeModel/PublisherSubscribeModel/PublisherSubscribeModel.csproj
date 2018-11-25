@@ -32,6 +32,60 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Apache.NMS">
+      <HintPath>..\..\..\Spring.NET\lib\Net\2.0\Apache.NMS.dll</HintPath>
+    </Reference>
+    <Reference Include="Apache.NMS.ActiveMQ">
+      <HintPath>..\..\..\Spring.NET\lib\Net\2.0\Apache.NMS.ActiveMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Aop">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Aop.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data.NHibernate12">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Data.NHibernate12.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data.NHibernate20">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Data.NHibernate20.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data.NHibernate21">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Data.NHibernate21.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Messaging">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Messaging.Nms">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Messaging.Nms.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Scheduling.Quartz">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Scheduling.Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Services">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Template.Velocity">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Template.Velocity.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Testing.Microsoft">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Testing.Microsoft.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Testing.NUnit">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Testing.NUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Web">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Web.Extensions">
+      <HintPath>..\..\..\Spring.NET\bin\net\2.0\debug\Spring.Web.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
